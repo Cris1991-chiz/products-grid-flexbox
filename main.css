@@ -1,0 +1,91 @@
+.container {
+  width: 80%;
+  margin-top: 50px;
+}
+
+.column {
+  display: table;
+  padding: 1px;
+}
+
+.products {
+  float: right;
+  width: 20%;
+  border: 0.5px solid lightgray;
+}
+
+.img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img-container img {
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+}
+
+.details {
+  margin: 1px 10px 10px 10px;
+  text-align: center;
+}
+
+.details button {
+  font-size: 14px;
+}
+
+.details h5 {
+  margin: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.details p {
+  margin: 4px;
+  font-size: 13px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font: 15px/1.5 Arial, Helvatica, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* On screens that are 992px wide or less*/
+@media screen and (max-width: 992px) {
+  .products {
+    width: 40%;
+  }
+}
+
+/* On screens that are 600px wide or less*/
+@media screen and (max-width: 600px) {
+  .products {
+    width: 80%;
+  }
+}
+
+/* On screens that are 600px wide or less*/
+@media screen and (max-width: 400px) {
+  .products {
+    width: 80%;
+  }
+  .details h5 {
+    font-size: 12px;
+    margin: 3px;
+  }
+  .details p {
+    font-size: 10px;
+    margin: 2px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

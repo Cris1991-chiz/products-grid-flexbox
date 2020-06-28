@@ -1,0 +1,28 @@
+/* On screens that are 992px wide or less*/
+@media screen and (max-width: 992px) {
+    .products {   
+      width: 40%;
+    }
+}
+
+/* On screens that are 600px wide or less*/
+@media screen and (max-width: 600px) {
+    .products {   
+      width: 80%;
+    }
+}
+
+/* On screens that are 600px wide or less*/
+@media screen and (max-width: 400px) {
+    .products {   
+      width: 80%;
+    }
+    .details h5 {
+        font-size: 12px;
+        margin: 3px;
+    }
+    .details p {
+        font-size: 10px;
+        margin: 2px;
+    }
+}
